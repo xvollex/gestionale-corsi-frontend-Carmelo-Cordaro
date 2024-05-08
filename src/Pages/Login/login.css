@@ -1,0 +1,39 @@
+.login-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #a1a1e0df, #ffffff);
+  }
+  
+  .login-container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .register-link {
+    margin-top: 20px;
+    color: #666;
+  }
+  
+  .register-link a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .register-link a:hover {
+    text-decoration: underline;
+  }
+
+  .error-message
+  {
+    color: red;
+  }
+  

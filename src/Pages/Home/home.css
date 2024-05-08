@@ -1,0 +1,54 @@
+h1
+{
+    text-align: center;
+}
+
+.home-wrapper 
+{
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #a1a1e0df, #ffffff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .home-content 
+  {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .home-title 
+  {
+    font-size: 2em;
+    color: #333;
+  }
+  
+  .home-subtitle 
+  {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .home-buttons 
+  {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .home-btn 
+  {
+    padding: 10px 20px;
+ 
+  }
+  
+  .home-btn:hover 
+  {
+    opacity: 0.8;
+    transform: scale(1.05);
+  }
+  

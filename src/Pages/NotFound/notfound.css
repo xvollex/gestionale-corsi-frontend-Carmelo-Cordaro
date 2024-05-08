@@ -1,0 +1,43 @@
+.notfound-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Fa in modo che prenda l'intera altezza della finestra */
+    background: linear-gradient(to bottom, #a22626, #d0d0d0); /* Aggiunge un gradiente allo sfondo */
+  }
+  
+  .notfound-container {
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Ombra per profondità */
+  }
+  
+  .notfound-title {
+    font-size: 2em; /* Grande per evidenziare l'errore */
+    color: #333;
+  }
+  
+  .notfound-message {
+    font-size: 1.2em; /* Testo esplicativo */
+    color: #666;
+    margin-bottom: 20px; /* Spazio tra testo e immagine */
+  }
+  
+  .notfound-image {
+    max-width: 100%; /* Assicura che l'immagine non superi la larghezza del contenitore */
+    border-radius: 10px; /* Arrotonda gli angoli */
+    margin-bottom: 20px; /* Spazio tra immagine e pulsante */
+  }
+  
+  .notfound-btn {
+    padding: 10px 20px; /* Stile del pulsante */
+    transition: all 0.3s ease; /* Effetto di transizione al passaggio del mouse */
+  }
+  
+  .notfound-btn:hover {
+    opacity: 0.8; /* Riduce l'opacità al passaggio del mouse */
+    transform: scale(1.05); /* Aumenta leggermente la dimensione al passaggio del mouse */
+  }
+  

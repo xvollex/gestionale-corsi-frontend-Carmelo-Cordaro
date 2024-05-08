@@ -1,0 +1,23 @@
+.unauthorized-wrapper {
+    background: #ffcccc; /* Colore rosato per trasmettere l'idea di errore o avviso */
+    min-height: 100vh; /* Copre tutta l'altezza della finestra */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra verticalmente */
+    align-items: center; /* Centra orizzontalmente */
+    color: #333; /* Colore del testo */
+  }
+  
+  .unauthorized-actions {
+    margin-top: 20px; /* Spazio tra il testo e i bottoni */
+  }
+  
+  .unauthorized-wrapper h1 {
+    font-size: 2em; /* Dimensione del titolo */
+    color: #b22222; /* Colore rosso scuro per il titolo */
+  }
+  
+  .unauthorized-wrapper p {
+    margin: 10px 0; /* Spaziatura tra i paragrafi */
+  }
+  

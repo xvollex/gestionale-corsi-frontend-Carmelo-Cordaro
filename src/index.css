@@ -1,0 +1,23 @@
+*
+{
+    font-family: Geneva, Tahoma, sans-serif;
+}
+
+nav 
+{
+  
+    color: #d44c4c;
+
+}
+
+footer
+{
+    background-color: #00000096;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: fixed; 
+    bottom: 0; 
+    width: 100%;
+}
+
